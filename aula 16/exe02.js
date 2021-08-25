@@ -1,6 +1,5 @@
 /*
 Exercício 2
-
 Clonando um array
 
 Escreva uma função JavaScript para clonar um array.
@@ -9,10 +8,9 @@ duplicados
 */
 
 /* 
-
 TENTATIVA 01
-let array = [1, 2,  2, 3]
 
+let array = [1, 2,  2, 3]
 let newArray = array.map((element) => {
         if (!array.includes(element)) {
             newArray.push(element)
@@ -24,20 +22,35 @@ let newArray = array.map((element) => {
 /*TENTATIVA 02
 
 let array = [1, 2,  2, 3]
-
 let newArray = array.map(element => !newArray.includes(element).push(element))
-
 console.log(newArray)
 */
 
 
 //TENTATIVA 03
-let lista = [banana, maça, uva, uva]
+//let lista = [banana, maça, uva, uva]
 
-let listaSemRepeticao = lista.map(tirarItensRepetidos)
-function tirarItensRepetidos(elemento) {
-    if (!listaSemRepeticao.includes(elemento)){
-        listaSemRepeticao.push(elemento)
-        return listaSemRepeticao
+//let listaSemRepeticao = lista.map(tirarItensRepetidos)
+
+
+
+//function tirarItensRepetidos(elemento) {
+//if (!listaSemRepeticao.includes(elemento)){
+//listaSemRepeticao.push(elemento)
+//return listaSemRepeticao
+//}
+//}
+
+//TENTATIVA 04
+const lista = ['banana', 'maça', 'uva', 'uva']
+
+let listaSemRepeticao = []
+
+lista.forEach(fruta => {
+    if (!listaSemRepeticao.includes(fruta)){
+        listaSemRepeticao.push(fruta)
     }
-}
+})
+console.log(listaSemRepeticao)
+
+
