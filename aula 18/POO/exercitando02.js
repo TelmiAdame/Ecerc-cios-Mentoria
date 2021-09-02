@@ -1,4 +1,6 @@
 
+
+// CLASSE CANETA COM GET E SET
 class Caneta{
     constructor(nome, cor, codigo, ){
         this.name = nome;

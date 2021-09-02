@@ -1,4 +1,5 @@
-/*
+
+//OBEJTO CANETA
 const caneta = {
     nome: 'Compactor Economic',
     tampa: true,
@@ -23,10 +24,11 @@ const caneta = {
     }
 }
 
-*/
+console.log(caneta)
 
+// _____________________________________________________________________________________________________________________________ //
 
-
+//CLASSE CANETA
 class Caneta{
     constructor(nome, tampa, corTinta, altura, grossura, codigo, corTubo, ponta){
         this.nome = nome;
