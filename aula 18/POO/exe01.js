@@ -21,10 +21,6 @@ class animal{
         this.patas = patas;
         this.alimentacao = alimentacao;
     }
-    //respirar()
-    //andar()
-    //comer()
-    //dormir()
 }
 
 class cachorro{
@@ -63,3 +59,5 @@ class girafa{
 
 let viraLata = new cachorro(2, 'fino', 'true', 'cachorro', 'castanhos', 4, 'ração')
 console.log(cachorro)
+
+

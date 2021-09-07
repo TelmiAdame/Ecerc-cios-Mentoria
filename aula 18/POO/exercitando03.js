@@ -72,3 +72,4 @@ class ContaBancaria {
 let primeiroUSer = new ContaBancaria('Telmi', 123456, 'cc')
 console.log(primeiroUSer)
 console.log(ContaBancaria.primerouserET, ContaBancaria.userET, ContaBancaria.numeroContaET, ContaBancaria.numeroContaET, ContaBancaria.tipoET, ContaBancaria.tipoET)
+

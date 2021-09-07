@@ -1,5 +1,5 @@
 
-//OBEJTO CANETA
+//OBJETO CANETA
 const caneta = {
     nome: 'Compactor Economic',
     tampa: true,
